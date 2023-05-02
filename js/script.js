@@ -1,3 +1,12 @@
+// LOADER
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
+
+
 // NAVBAR
 
 window.addEventListener('scroll', function(){
@@ -88,13 +97,13 @@ function topFunction() {
 }
 
 // MESSAGE FLASHY 
-window.addEventListener("load", function() {
-    var f = document.getElementById('Foo');
-    setInterval(function() {
-        f.style.display = (f.style.display == 'none' ? '' : 'none');
-    }, 1000);
+// window.addEventListener("load", function() {
+//     var f = document.getElementById('Foo');
+//     setInterval(function() {
+//         f.style.display = (f.style.display == 'none' ? '' : 'none');
+//     }, 1000);
 
-}, false);
+// }, false);
 
 
 // REVEAL
